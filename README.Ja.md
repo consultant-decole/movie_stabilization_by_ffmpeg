@@ -17,6 +17,14 @@
 
 ---
 
+## 実行サンプル
+
+* 入力動画を左に、処理後の出力動画を右に対比して再生しています。
+
+[比較動画の再生](https://github.com/consultant-decole/movie_stabilization_by_ffmpeg/issues/1#issue-3885884238)
+
+---
+
 ## 主な機能
 
 1.  **フレームレートの自動検出**
@@ -83,12 +91,4 @@
 * **入力ディレクトリ**: SEARCH_DIR = "ここに入力動画保存先パス"
 
 * **出力ディレクトリ**: OUTPUT_DIR = "ここに出力動画の保存先"
-
----
-
-## 実行サンプル
-
-* 入力動画を左に、処理後の出力動画を右に対比して再生しています。
-
-[比較動画の再生](https://github.com/consultant-decole/movie_stabilization_by_ffmpeg/issues/1#issue-3885884238)
 
