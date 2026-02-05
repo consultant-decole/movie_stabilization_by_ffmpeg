@@ -11,6 +11,14 @@ This tool functions as a "software gimbal" to smooth out flight footage.
 
 ---
 
+## Sample Result
+
+* Below is a comparison with the input video on the left and the stabilized output on the right.
+
+[Play Movie](https://github.com/consultant-decole/movie_stabilization_by_ffmpeg/issues/1#issue-3885884238)
+
+---
+
 ## Key Features
 
 1. **Automatic Frame Rate Detection** Uses `ffprobe` to extract the exact average frame rate (FPS) from the input video, ensuring the output video maintains perfect synchronization.
@@ -73,11 +81,3 @@ Explanation of the key options used in the script:
 * **Directory Configuration**: Based on `.env.sample`, enter your input and output paths for the following variables. Rename the file to `.env` so the program can reference it.
 * **Input Directory**: `SEARCH_DIR = "Path to your input videos"`
 * **Output Directory**: `OUTPUT_DIR = "Path to save output videos"`
-
----
-
-## Sample Result
-
-* Below is a comparison with the input video on the left and the stabilized output on the right.
-
-[View Comparison Video](https://github.com/consultant-decole/movie_stabilization_by_ffmpeg/issues/1#issue-3885884238)
